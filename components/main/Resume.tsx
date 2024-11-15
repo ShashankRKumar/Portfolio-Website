@@ -2,7 +2,6 @@
 import React from 'react';
 
 const Resume = () => {
-  // Correct path to the resume PDF in the public folder (accessible from the public root)
   const resumeUrl = "/Shashank Ramesh Kumar.pdf";
 
   return (

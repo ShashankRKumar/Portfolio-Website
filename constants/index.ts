@@ -3,18 +3,45 @@ export const Skill_data = [
     
   ];
   
+
+  export const Projects = [
+    {
+      title: "Project One",
+      description: "This is a description of Project One, highlighting its features and technologies used.",
+      githubUrl: "https://github.com/ShashankRKumar/ProjectOne",
+      Image: "/projectOneImage.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      title: "Project Two",
+      description: "This is a description of Project Two, outlining the project's scope and the solutions it provides.",
+      githubUrl: "https://github.com/ShashankRKumar/banking_app",
+      Image: "/projectTwoImage.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      title: "Project Three",
+      description: "This is a description of Project Three, focusing on its innovative approach and technology stack.",
+      githubUrl: "https://github.com/ShashankRKumar/ProjectThree",
+      Image: "/projectThreeImage.png",
+      width: 80,
+      height: 80,
+    },
+  ];
+  
+ 
   export const Socials = [
     {
-      name: "Discord",
-      src: "/instagram.svg",
+      name: "Github",
+      src: "/github.png",
+      url: "https://github.com/ShashankRKumar/",
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
-    },
-    {
-      name: "Instagram",
-      src: "/discord.svg",
+      name: "LinkedIn",
+      src: "/linkedin.png",
+      url: "https://www.linkedin.com/in/shashankrameshkumar/",
     },
   ];
   
@@ -55,6 +82,13 @@ export const Skill_data = [
     {
       skill_name: "Redux",
       Image: "/redux.png",
+      width: 80,
+      height: 80,
+    },
+    
+    {
+      skill_name: "React",
+      Image: "/react.png",
       width: 80,
       height: 80,
     },
@@ -182,6 +216,8 @@ export const Skill_data = [
   
   ];
   
+
+
   
   
   

@@ -22,14 +22,15 @@ const ProjectCard = ({ src, title, description, githubUrl }: Props) => {
       <div className="relative p-4">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
         <p className="mt-2 text-gray-300">{description}</p>
+        {/* Button to view the project on GitHub */}
         <a
-                href={githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-block bg-purple-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 cursor-pointer"
-            >
-                View on GitHub
-            </a>
+          href={githubUrl}  
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 inline-block bg-purple-500 text-white font-bold py-2 px-4 rounded hover:bg-purple-700 cursor-pointer transition-colors duration-300 ease-in-out"
+        >
+          View on GitHub
+        </a>
       </div>
     </div>
   );

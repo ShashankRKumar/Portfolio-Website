@@ -36,6 +36,7 @@
   transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) box-shadow;
 }
 
+
 .button-style {
   display: flex;
   flex-direction: row;
@@ -49,9 +50,12 @@
   border-radius: 5px; /* Rounded corners */
   transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
 }
+.button-primary {
+  font-weight: bold;
+}
 
 .button-style:hover {
-  background-color: #d82929; /* Darker grey on hover */
+  background-color: #f4f0f0; /* Darker grey on hover */
   transform: scale(1.05); /* Slightly larger on hover */
 }
 

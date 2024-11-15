@@ -77,7 +77,7 @@ const Encryption = () => {
             viewport={{ once: false }}
             className="text-[20px] text-white mt-20 mb-10"
           >
-            My Journey through the Cosmos of Technology
+            My Journey through the Cosmos of Technological Companies
           </motion.div>
           <div className="flex flex-col items-center bg-black bg-opacity-70">
             <div className="space-y-7">
