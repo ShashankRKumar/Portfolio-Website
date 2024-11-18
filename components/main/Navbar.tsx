@@ -2,6 +2,7 @@ import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
 
+
 const Navbar = () => {
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
@@ -36,6 +37,8 @@ const Navbar = () => {
             <a href="/Shashank Ramesh Kumar.pdf" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
               Resume
             </a>
+
+            
           </div>
         </div>
 

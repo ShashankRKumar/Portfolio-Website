@@ -4,32 +4,28 @@ export const Skill_data = [
   ];
   
 
-  export const Projects = [
-    {
-      title: "Project One",
-      description: "This is a description of Project One, highlighting its features and technologies used.",
-      githubUrl: "https://github.com/ShashankRKumar/ProjectOne",
-      Image: "/projectOneImage.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      title: "Project Two",
-      description: "This is a description of Project Two, outlining the project's scope and the solutions it provides.",
-      githubUrl: "https://github.com/ShashankRKumar/banking_app",
-      Image: "/projectTwoImage.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      title: "Project Three",
-      description: "This is a description of Project Three, focusing on its innovative approach and technology stack.",
-      githubUrl: "https://github.com/ShashankRKumar/ProjectThree",
-      Image: "/projectThreeImage.png",
-      width: 80,
-      height: 80,
-    },
-  ];
+ // src/data/projects.ts
+export const projectData = [
+  {
+    title: "SnapGram Social Media",
+    description: "A cutting-edge social media platform.",
+    githubUrl: "https://github.com/ShashankRKumar/SnapGram",
+    image: "/images/snapgram.png",
+  },
+  {
+    title: "Banking with Finance Management Dashboard",
+    description: "A finance management dashboard for modern banking.",
+    githubUrl: "https://github.com/ShashankRKumar/BankingDashboard",
+    image: "/images/horizonbank.png",
+  },
+  {
+    title: "Fizzi Soda",
+    description: "E-commerce platform for artisanal beverages.",
+    githubUrl: "https://github.com/ShashankRKumar/FizziSoda",
+    image: "/images/fizzisoda.png",
+  },
+];
+
   
  
   export const Socials = [
