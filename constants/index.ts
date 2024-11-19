@@ -2,30 +2,31 @@ export const Skill_data = [
     
     
   ];
+
+
+
+
+  export const Projects = [
+    {
+      title: "SnapGram Social Media",
+      description: "A cutting-edge social media platform built for seamless interaction.",
+      githubUrl: "https://github.com/ShashankRKumar/banking_app",
+      Image: "/Snapgram_Social.png",
+    },
+    {
+      title: "Banking with Finance Management Dashboard",
+      description: "A modern banking app with integrated finance management tools.",
+      githubUrl: "https://github.com/ShashankRKumar/finance_management",
+      Image: "/Horizon_bank.png",
+    },
+    {
+      title: "Fizzi Soda",
+      description: "An e-commerce platform with sleek UI/UX design and advanced features.",
+      githubUrl: "https://github.com/ShashankRKumar/fizzi_soda",
+      Image: "/FizziSoda.png",
+    },
+  ];
   
-
- // src/data/projects.ts
-export const projectData = [
-  {
-    title: "SnapGram Social Media",
-    description: "A cutting-edge social media platform.",
-    githubUrl: "https://github.com/ShashankRKumar/SnapGram",
-    image: "/images/snapgram.png",
-  },
-  {
-    title: "Banking with Finance Management Dashboard",
-    description: "A finance management dashboard for modern banking.",
-    githubUrl: "https://github.com/ShashankRKumar/BankingDashboard",
-    image: "/images/horizonbank.png",
-  },
-  {
-    title: "Fizzi Soda",
-    description: "E-commerce platform for artisanal beverages.",
-    githubUrl: "https://github.com/ShashankRKumar/FizziSoda",
-    image: "/images/fizzisoda.png",
-  },
-];
-
   
  
   export const Socials = [
@@ -41,6 +42,25 @@ export const projectData = [
     },
   ];
   
+
+  
+  export const Footer = [
+    {
+      name: "Github",
+      src: "/github.png",
+      url: "https://github.com/ShashankRKumar/",
+    },
+    {
+      name: "LinkedIn",
+      src: "/linkedin.png",
+      url: "https://www.linkedin.com/in/shashankrameshkumar/",
+    },
+    {
+      name: "Email",
+      src: "/Email.png",
+      url: "mailto:rkshashank39@gmail.com",
+    },
+  ];
   
   
   export const Frontend_skill = [
