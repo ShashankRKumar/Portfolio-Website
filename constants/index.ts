@@ -5,28 +5,6 @@ export const Skill_data = [
 
 
 
-
-  export const Projects = [
-    {
-      title: "SnapGram Social Media",
-      description: "A cutting-edge social media platform built for seamless interaction.",
-      githubUrl: "https://github.com/ShashankRKumar/banking_app",
-      Image: "/Snapgram_Social.png",
-    },
-    {
-      title: "Banking with Finance Management Dashboard",
-      description: "A modern banking app with integrated finance management tools.",
-      githubUrl: "https://github.com/ShashankRKumar/finance_management",
-      Image: "/Horizon_bank.png",
-    },
-    {
-      title: "Fizzi Soda",
-      description: "An e-commerce platform with sleek UI/UX design and advanced features.",
-      githubUrl: "https://github.com/ShashankRKumar/fizzi_soda",
-      Image: "/FizziSoda.png",
-    },
-  ];
-  
   
  
   export const Socials = [
