@@ -35,6 +35,16 @@
 }
 
 
+
+.group:hover .group-hover\:opacity-80 {
+  opacity: 0.8; 
+}
+
+.group:hover .group-hover\:text-\[#2A0E61\] {
+  color: #2A0E61;
+}
+
+
 .button-style {
   display: flex;
   flex-direction: row;

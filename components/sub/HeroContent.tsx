@@ -45,7 +45,7 @@ const HeroContent = () => {
         </span>
         </p>
         <p className="text-lg leading-7">
-      🚀 Over the years, I’ve honed my skills as a <span className="font-semibold">JavaScript maestro</span>, mastering frameworks like Tailwind, Express, and even diving into those daunting legacy codebases no one dares to touch. On the backend, I specialize in optimizing REST APIs and ensuring data pipelines flow as seamlessly as your favorite streaming service on fiber internet
+      🚀 Over the years, I’ve honed my skills as a <span className="font-semibold">JavaScript </span>, mastering frameworks like Tailwind, Express, and even diving into those daunting legacy codebases no one dares to touch. On the backend, I specialize in optimizing REST APIs and ensuring data pipelines flow as seamlessly as your favorite streaming service on fiber internet
       <br />  
       <br />  
       
