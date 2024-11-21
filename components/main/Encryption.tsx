@@ -9,8 +9,8 @@ const slideInFromTop = {
     y: 0,
     opacity: 1,
     scale: 1,
-    transition: { type: 'spring', stiffness: 50, damping: 20, duration: 0.5 }
-  }
+    transition: { type: "spring", stiffness: 50, damping: 20, duration: 0.5 },
+  },
 };
 
 const slideInFromBottom = {
@@ -19,42 +19,49 @@ const slideInFromBottom = {
     y: 0,
     opacity: 1,
     scale: 1,
-    transition: { type: 'spring', stiffness: 50, damping: 20, duration: 0.5 }
-  }
+    transition: { type: "spring", stiffness: 50, damping: 20, duration: 0.5 },
+  },
 };
 
 // Parallax effect container
-const ParallaxContainer = ({ children }) => {
+interface ParallaxContainerProps {
+  children: React.ReactNode; // Type for children prop
+}
+
+const ParallaxContainer: React.FC<ParallaxContainerProps> = ({ children }) => {
   const { scrollY } = useViewportScroll();
   const y = useTransform(scrollY, [0, 500], [0, -100]);
   return <motion.div style={{ y }}>{children}</motion.div>;
 };
 
 // ExperienceCard component with enhanced styles and animation
-const ExperienceCard = ({ role, company, timeframe, description }) => {
+interface ExperienceCardProps {
+  role: string;
+  company: string;
+  timeframe: string;
+  description: string;
+}
+
+const ExperienceCard: React.FC<ExperienceCardProps> = ({ role, company, timeframe, description }) => {
   return (
     <motion.div
       className="bg-gradient-to-br from-purple-800 to-blue-500 rounded-lg p-4 shadow-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out"
       variants={slideInFromBottom}
-      initial="offscreen"
-      whileInView="onscreen"
+      initial="hidden"
+      whileInView="visible"
       viewport={{ once: true, amount: 0.8 }}
     >
       <h4 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-yellow-300">
         {role} @ {company}
       </h4>
-      <p className="text-gray-200 italic">
-        {timeframe}
-      </p>
-      <p className="text-white text-opacity-90 leading-snug mt-1">
-        {description}
-      </p>
+      <p className="text-gray-200 italic">{timeframe}</p>
+      <p className="text-white text-opacity-90 leading-snug mt-1">{description}</p>
     </motion.div>
   );
 };
 
 // Main Encryption component integrating all features
-const Encryption = () => {
+const Encryption: React.FC = () => {
   return (
     <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full bg-space bg-no-repeat bg-cover">
       <ParallaxContainer>
@@ -65,7 +72,8 @@ const Encryption = () => {
           className="text-[80px] font-medium text-center text-gray-200 absolute top-0 w-auto h-auto z-[5]"
         >
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            {" "}Experience{" "}
+            {" "}
+            Experience{" "}
           </span>
         </motion.div>
 
