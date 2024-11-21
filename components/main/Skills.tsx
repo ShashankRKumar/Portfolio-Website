@@ -14,10 +14,11 @@ const Skills = () => {
     <section
       id="skills"
       className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-20"
-      style={{ transform: "scale(0.9" }}
+      style={{ transform: "scale(0.9)" }}
     >
       <SkillText />
 
+      {/* Mapping Skill_data array */}
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {Skill_data.map((image, index) => (
           <SkillDataProvider
@@ -30,6 +31,7 @@ const Skills = () => {
         ))}
       </div>
 
+      {/* Mapping Frontend_skill array */}
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {Frontend_skill.map((image, index) => (
           <SkillDataProvider
@@ -41,6 +43,8 @@ const Skills = () => {
           />
         ))}
       </div>
+
+      {/* Mapping Backend_skill array */}
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {Backend_skill.map((image, index) => (
           <SkillDataProvider
@@ -52,6 +56,8 @@ const Skills = () => {
           />
         ))}
       </div>
+
+      {/* Mapping Full_stack array */}
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {Full_stack.map((image, index) => (
           <SkillDataProvider
@@ -63,6 +69,8 @@ const Skills = () => {
           />
         ))}
       </div>
+
+      {/* Mapping Other_skill array */}
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {Other_skill.map((image, index) => (
           <SkillDataProvider
