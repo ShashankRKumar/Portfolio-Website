@@ -1,0 +1,21 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.heroImage {
+    max-width: 50%;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .heroImage {
+        max-width: 100%;
+    }
+}

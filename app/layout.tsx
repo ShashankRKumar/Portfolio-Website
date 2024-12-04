@@ -4,6 +4,7 @@ import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
+import styles from "@/app/styles/Navbar.module.css"; // Navbar-specific styles if needed globally
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,8 +24,10 @@ export default function RootLayout({
         className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
         <StarsCanvas />
-        <Navbar />
-        {children}
+        <div className={styles.navbarContainer}>
+          <Navbar />
+        </div>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
